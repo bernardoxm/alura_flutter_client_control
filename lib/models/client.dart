@@ -1,4 +1,5 @@
 import 'package:client_control/models/client_type.dart';
+import 'package:flutter/src/widgets/icon_data.dart';
 
 class Client {
   String name;
@@ -8,6 +9,6 @@ class Client {
   Client({
     required this.name,
     required this.email,
-    required this.type
+    required this.type,  IconData? icon
   });
 }
